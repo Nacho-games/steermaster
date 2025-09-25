@@ -1,2 +1,0 @@
-# steermaster
-my game
