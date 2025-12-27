@@ -1,0 +1,291 @@
+img {
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+.About-Me img,
+.steermaster-img img,
+.level-1 img,
+.level-2 img,
+.level-3 img,
+.menu-img img,
+.buttons img,
+.skins-menu img,
+.leaderboard-menu img,
+.difficulty-menu img {
+    display: block;
+    margin: 0 auto;
+    align-self: center;
+}
+
+body {
+    background-color: rgb(114, 185, 233);
+}
+
+.title, .subtitle {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.About-Me {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 800px;
+    margin: 2rem auto;
+    background-color: rgb(214, 237, 252);
+    padding: 1rem;
+}
+
+
+.About-Me img {
+    padding: 1rem;
+    width: 250px;     
+    height: 250px;
+    align-self: center;
+
+}
+
+.projects-title {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+a {
+    font-size: 1.25em;
+    margin: 0.5rem;
+    color: rgb(90, 122, 230);
+    text-decoration: None;
+    
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+    text-align: center;
+    font-size: 2.25em;
+    margin: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+h4 {
+    font-size: 1.75em;
+    margin: 0.25rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 0.5rem;
+    padding-top: 2rem;
+}
+
+h5 {
+    font-size: 1.2em;
+    margin: 0.25rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 1rem;
+}
+.buttons h4 {
+    text-align: center;
+}
+
+.About-Me-Text {
+    padding: 0.5rem;
+}
+
+.text {
+    font-size: 1.25em;
+}
+
+.skins-menu,
+.leaderboard-menu,
+.difficulty-menu,
+.levels-menu,
+.sounds-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center; 
+    gap: 1rem; 
+}
+
+
+.steermaster {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 800px;
+    margin: 2rem auto;
+    background-color: rgb(214, 252, 223);
+    padding: 1rem;
+
+}
+
+.level-1, .level-2, .level-3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.steermaster-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-image {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.steermaster-img img {
+    max-width: 200px;
+    max-height: 100px;
+    padding: 1rem;
+
+}
+
+.steermaster-text {
+    align-self: center;
+}
+
+.level-1 img, .level-2 img, .level-3 img {
+    max-width: 350px;
+    max-height: 175px;
+    padding: 0.75rem;
+    align-self: center;
+}
+
+.level-1, .level-2, .level-3 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.Levels {
+    margin-top: 3rem;
+}
+
+.menu {
+    width: 400px;
+    height: 200px;
+    padding: 1rem;
+}
+
+.Menus, .Main-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menu-img {
+    align-self: center;
+}
+
+.levels-menu, .skins-menu, .leaderboard-menu, .difficulty-menu, .sounds-menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.square {
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 1rem;
+    overflow: hidden;     
+    box-sizing: border-box;
+}
+
+
+.Speedrun-button, .Levels-button, .Sound-button, .Skins-button, .Leaderboard-button, .difficulty-button {
+    margin-top: 3rem;
+}
+
+.sounds-menu img {
+    padding: 1rem;
+    width: 350px;
+}
+
+.specialone{
+    padding: 0.2rem;
+    width: 150px;
+
+}
+.Main-menu .text,
+.Speedrun-button .text {
+    text-align: center;
+}
+
+.Music {
+    display: flex;
+    flex-direction: column;
+}
+
+.Music-content, .Completed-Content {
+    display: flex;
+    flex-direction: row;
+}
+
+.Music img {
+    max-width: 400px;
+    padding: 1rem;
+}
+
+.Music .text {
+    align-self: center;
+}
+
+.Complete img {
+    max-width: 200px;
+    padding: 0.5rem;
+}
+
+.Completed-Content .text {
+    text-align: center;
+}
+
+.Cheats-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.Cheats-content .text {
+    text-align: center;
+}
+
+video {
+    padding: 1rem;
+    align-self: center;
+    
+}
+
+audio {
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.effects-content, .saved-contents {
+    display: flex;
+    flex-direction: row;
+}
+
+.saved-contents img {
+    width: 300px;
+    padding: 1rem;
+}
+
+.Video  {
+    align-self: center;
+}

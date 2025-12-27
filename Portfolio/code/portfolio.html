@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+
+    <div class="title"><h1>Steermaster Portfolio</h1></div>
+
+    <section class="About-Me">
+
+        <img src="../files/avatar.png">
+
+        <div class="About-Me-Text">
+
+            <h2>About Me:</h2>
+
+            <div class="text">
+                <p>I'm Nacho and I like to code cool stuff, I have done quite a bit of things with the library of pygame in python, for example I created my masterpiece of a game called 'steermaster' and I reproduced the 1 body problem in 2d. </p>
+                <p>I'm currently learning web development, I have built simple things like recreating Googles's home page aswell as creating a image library</p>
+                <p>I'm also interested in electronics and plan to start working with Arduino to combine hardware and software.</p>
+                <p>In the future i will like to build real apps like a college guide map.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="Projects">
+
+        <div class="subtitle"><h2>My Game</h2></div>
+        <article class="steermaster">
+            <section class="steermaster-info">
+                <div class="projects-title">
+                    <h2>Steermaster</h2>
+                    <a href="https://github.com/Nacho-games/steermaster">Github Repository</a>
+                </div>
+                <div class ="text-image">
+                    <div class="steermaster-img">
+                        <img src="../files/steermaster_images/steermaster.png">
+                    </div>
+                    <div class="text">
+                        <aside>Steermaster is a game where you drive a car throughout levels, each level teaching new skills and mechanics. I spent multiple months making this game in pygame, it has just under 3000 lines. There are 3 levels you can play, and there is a mode called speedrun where you can play them all in order and beat your times, you are able to select different cars, there is a leaderboard and you can ajust the difficulty </aside>
+                    </div>
+                </div>
+            </section>
+            <section class="Levels">
+                <h3>Levels</h3>
+                <div class="level-1">
+                    <img src="../files/steermaster_images/level1.png">
+                    <div class="level-1-text">
+                        <h4>Level 1: The Flooded Pathway</h4>
+                        <div class="text">
+                            <aside> The Flooded Pathway is the first level of the game, it is very simple because it has the main objective of teaching you the basics: moving and steering. The map consist of a easy grass path with turns. If any of your wheels leave the ground, you will fall into the water with a splash. </aside>
+                        </div>
+                    </div>
+                </div>
+                <div class="level-2">
+                    <img src="../files/steermaster_images/level2.png">
+                    <div class="level-2-text">
+                        <h4>Level 2: Roads of Chaos</h4>
+                        <div class="text">
+                            <aside>Road of Chaos is the second level of the game, it indroduces the mechanic of moving people which you cannot hit. The map consist of a road in a deserted place with lots of pedrestians moving in a predictable pattern. I think it is very fun to because in some areas because the timings are very tight. </aside>
+                        </div>
+                    </div>
+                </div>
+                <div class="level-3">
+                    <img src="../files/steermaster_images/level3.png">
+                    <div class="level-3-text">
+                        <h4>Level 3: Icy Peaks</h4>
+                        <div class="text">
+                            <aside>Icy Peaks is the third level of the game and by far the one I have put the most work on. In this level you slide in most of the map because of the floor made out of ice, which involves a completly new type of movement you need to master. There are also snowmen scatter around the map that throw you snowballs in somewhat of a random angle. If 3 balls hit your car, you are out, which is indicated by the live bar in the top-right of the screen. The map consist of an icy village situated in the peaks, there is a road with steps curves you need to travel. The hole map is decorated with houses, gardens, trees and even a freezed lake where people are ice skating. </aside>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="Menus">
+                <h3>Menus</h3>
+                <div class="Main-menu">
+                    <aside class="text">When you launch steermaster, you are greeted with the main menu, which displays the title and a few other things.</aside>
+                    <div class="menu-img"><img class="menu" src="../files/steermaster_images/main_menu.png"></div>
+                </div>
+                <section class="buttons">
+                    <h3>Main Menu buttons</h3>
+                    <div class="Speedrun-button">
+                        <h4>Speedrun button</h4>
+                        <aside class="text">When you clik this button, you go into speedrun mode, basically, all you play all the levls in a row and try to beat your pb of times and deaths.</aside>
+                        <img class="square" src="../files/steermaster_images/speedrun-button.png">
+                        
+                    </div>
+                    <span class="Levels-button">
+                        <h4>Levels button</h4>
+                        <img class="square"csrc="../files/steermaster_images/level-selector-button.png">
+                        <div class="levels-menu">
+                            <img class="menu" src ="../files/steermaster_images/level_menu.png">
+                            <aside class="text">When you clik this button, you go into level selector menu, where you can select which level you want to play</aside>
+                        </div>
+                        
+                    </span>
+                    <span class="Sound-button">
+                        <h4>Sound button</h4>
+                        <div class="sounds-menu">
+                            <img src="../files/steermaster_images/sound-button.png"> 
+                            <aside class="text">If you click in the box, you can toggle on and off the output of sound.</aside>
+                        </div>
+                    </span>
+                    <span class="Skins-button">
+                        <h4>Skins button</h4>
+                        <img class="specialone" src="../files/steermaster_images/skins.gif">
+                        <div class="skins-menu">
+                            <img class="menu" src="../files/steermaster_images/skin_menu.png">
+                            <aside class="text">This button is animated in a way to show all the available skins you could use, when you click the button you go into the skins menu, where you can choose any of the 14 diffrent car skins. When you clik in any of them, a green tick is positioned on top to show which car you have currently selected.</aside>
+                            
+                        </div>  
+                    </span>
+                    <span class="Leaderboard-button">
+                        <h4>Leaderboard button</h4>
+                        <img class="square" src="../files/steermaster_images/leaderboard-button.png">
+                        <div class="leaderboard-menu">
+                            <img class="menu" src="../files/steermaster_images/leaderboard_menu.png">
+                            <aside class="text">When you click this button, you go into the the leaderboard menu, where you can see your pb in each level and see if it beats the creator's pb, (indicated by the color of the text). If you make a new pb, it is saved into your computer as a textfile.</aside>
+                        </div>
+                    </span>
+                    <span class="difficulty-button">
+                        <h4>Difficulty button</h4>
+                        <img class="square" src="../files/steermaster_images/difficulty-button.png">
+                        <div class="difficulty-menu">
+                            <img class="menu" src="../files/steermaster_images/difficulty_menu.png">
+                            <aside class="text">When you click this button, you go into the difficulty menu where you can slide the ball to change the percentage of difficulty. Below you can see a visual reperesentation of how much you change the cars hitbox. There is also a warning that indicates that only times made with exactly 50% difficulty are going to be counted towards the leaderboard.</aside>
+                        </div> 
+                    </span>
+                </section>
+            </section>
+            <section class="Feautures">
+                <div class="feautures-title">
+                    <h3>Extra Feautures</h3>
+                </div>
+                <span class="Music">
+                    <h4>Music</h4>
+                    <div class="Music-content">
+                        <aside class="text">
+                            Steermaster has 4 main soundtracks taken from pixabay.com (free use).
+                            <ul>
+                                <li>Menus: Animated and happy soundtrack</li>
+                                <li>The Flooded Pathway: Calm and classical theme</li>
+                                <li>Roads of chaos: Chaotic rock instrumental theme</li>
+                                <li>Icy Peaks: Rhythmical electronic music</li>
+                            </ul>
+                        </aside>
+                        
+                        <img src="../files/music.jpg">
+                    </div>
+                    <div class="audios">
+                        <section id="1">
+                            <h5>Menu song: </h5>
+                            <audio controls><source src="../files/audios/menu_song.mp3" type="audio/mpeg"></audio>
+                        </section>
+                        <section id="2">
+                            <h5>The Flooded Pathway:</h5>
+                            <audio controls><source src="../files/audios/Level_1_song.mp3" type="audio/mpeg"></audio>
+                        </section>
+                        <section id="3">
+                            <h5>Roads of Chaos:</h5>
+                            <audio controls><source src="../files/audios/Level_2_song.mp3" type="audio/mpeg"></audio>
+                        </section>
+                        <section id="4">
+                            <h5>Icy Peaks</h5>
+                            <audio controls><source src="../files/audios/Level_3_song.mp3" type="audio/mpeg"></audio>
+                        </section>
+                    </div>       
+                    
+                </span>
+                <span class="Complete">
+                    <h4>Level Completed Screens</h4>
+                    <div class="Completed-Content">
+                        <aside class="Completed-Images2">
+                            <img src="../files/steermaster_images/level1_completed.png">
+                            <img src="../files/steermaster_images/level2_completed.png">
+                        </aside>
+                        <aside class="text">
+                            When you complete a level you are taken to a screen, with a different background depending on the level, in that screen you see your time and deaths (if speedrun mode activated). If you cheated (I'll talk about that in a second) it will show the baners on the borders of the screen and will play an audio afirmatting you are a cheater. If the time you just did is beter than any other time you did on that level, it will show a sign telling you.
+                            
+                        </aside>
+                        <aside class="Completed-Images2">
+                            <img src="../files/steermaster_images/level3_completed.png">
+                            <img src="../files/steermaster_images/speedrun_completed.png">
+                        </aside>
+                    </div> 
+                </span>
+                <span class="Cheats">
+                    <h4>Cheats</h4>
+                    <div class="Cheats-content">
+                        
+                        <aside class="text">
+                            There is a little easter egg in the game, if you type "CHEATS" while in a level or in the speedrun mode, you completly skip that level. Of course the time you did doesn't count as real. When you skip a level by this method it will say "Cheats activated" and when you go into the completion screen there will be banners on the screen turning on and off signaling that you are a cheater aswell of a pretty annoying looping audio that says: "You are a cheater!"
+                        </aside>
+                        <video  autoplay muted loop controls width="500">
+                            <source src="../files/cheats.mp4" type="video/mp4">    
+                        </video>
+                    </div>                    
+                </span>
+                <span>
+                    <h4>Sound effects</h4>
+                    <div class="effects-content">
+                        <aside class="text">
+                            <p>
+                                Steermaster includes a variety of sound effects. Many are recorded Eleven labs audios that send a message like the difficulti message, cheats, thank you message, ice warnings, introduction to levels, completation messages and the cheater message
+                            </p>
+                            <p>
+                                As well as messages, there are many sound effects like the clikc effect, health down, when you die by going out of the road, people's scream when you hit them, snowball hit, throw and miss effects, the splash effect and the winning sound.
+                            </p>
+                        </aside>
+                        <img src="../files/audio-beat.gif">
+                    </div>
+                    <h5>Featured Audios</h5>
+                    <aside class="featured-audios">
+                        <div class="row">
+                            <audio controls><source src="../files/audios/cheats.mp3" type="audio/mpeg"></audio>
+                            <audio controls><source src="../files/audios/Final_speech.mp3" type="audio/mpeg"></audio>
+                            <audio controls><source src="../files/audios/health_down.mp3" type="audio/mpeg"></audio>
+                        </div>
+                        <div class="row">
+                            <audio controls><source src="../files/audios/out.mp3" type="audio/mpeg"></audio>
+                            <audio controls><source src="../files/audios/scream.mp3" type="audio/mpeg"></audio>
+                            <audio controls><source src="../files/audios/snowball_car_hit.mp3" type="audio/mpeg"></audio>
+                        </div>
+                        <div class="row">
+                            <audio controls><source src="../files/audios/splash.mp3" type="audio/mpeg"></audio>
+                            <audio controls><source src="../files/audios/wiin.mp3" type="audio/mpeg"></audio>
+                            <audio controls><source src="../files/audios/You_are_a_cheater.mp3" type="audio/mpeg"></audio>
+                        </div>
+                    </aside>
+                </span>
+                <span>
+                    <h4>Times saved on a .txt file</h4>
+                    <div class="saved-contents">
+                        <aside class="text">
+                            <p>
+                                The times are not only saved in the run, they are written in a .txt file on your computer called steermaster.txt. So when you boot up the game in another ocasion, your PBs are safely strored in your computer and the game reads that file and puts it in the leaderboard menu.
+                            </p>
+                            <p>
+                                The firts number is the level where the speedrun mode is level 4. The second number indicates the number of minutes in which the level was beaten, the third number is the same for milisencons and in the speedrun the fith number is the number of deaths
+                            </p>
+                            
+                        </aside>
+                        <img src="../files/steermaster_images/text_file_steermaster.png">
+                    </div>
+                </span>
+            </section>
+            <section class="Video">
+                <h3>Video of Steermaster</h3>
+                <video controls width="700">
+                    <source src="../files/steermaster_images/hole-steermaster.mp4" type="video/mp4">    
+                </video>
+            </section>
+        </article>  
+    </section>
+</body>
+</html>
