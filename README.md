@@ -4,6 +4,10 @@ This is a simple game where you controll a car through 3 levels made in python w
 If you wnat to see the how the game works you can go to the [Portfolio](Portfolio/README-Portfolio.md)
 
 HOW TO INSTALL:
-1. Clone this Repository
+1. Clone the folder Steermaster-Game
 2. Install Pygame (pip install pygame)
 3. Run the game and enjoy!
+
+
+Also I was bored and made a little calculation on how much time It will take to randomly code the game
+-> [Fun Calculation](how-much-time-to-randomly-code)
