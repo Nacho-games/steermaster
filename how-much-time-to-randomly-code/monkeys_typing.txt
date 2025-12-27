@@ -1,0 +1,86 @@
+Radius of the universe: 46 508 000 000 light-years
+Volume of a spehere: 4/3*pi*r³
+
+Volume of the observable universe: 4.213777508×10³² lght-years³
+
+Weight of a monkey: 8kg
+Density of a monkey: 1kg/l
+
+Volume of a moneky: 8L = 0.008m³
+Volume of a typewritter: 483"³ = 0,008mm³
+
+Total Volume = 0.008 + 0.008 = 0.016m³
+
+speed of light: 299 792 458 m / s
+
+seconds in a year: 60*60*24*365.24 = 31556736
+
+light year = 299 792 458 * 31556736 = 9.46×10¹⁵
+
+m³ in a light year = 8.4659×10⁴⁷
+
+Volume of the observable universe in m³= 4.213777508×10³² * 8.4659×10⁴⁷ = 3.5673419×10⁸⁰
+
+number of monkeys and typewrites in the observable universe = 3.5673419×10⁸⁰ / 0.016 = 
+
+2.229588687×10⁸²
+
+E(k) = (1-p^k) / ((1-p)*p^k
+
+k = number of strokes in a row
+p = probability of hitting the right key
+E = expected average of throws neede to get k successe in a row
+
+number of different characters = 91
+
+k = 84014 
+p = 1/91 = 0.010989011
+E(84014) = (1-(0.010989011)⁸⁴⁰¹⁴) / ((1-0.010989011)*(0.010989011)⁸⁴⁰¹⁴) ≈10¹⁶⁴⁶⁴⁰
+
+assuming 500cpm = 30000cph
+
+10^164640 / 30000 ≈ 3.3^164636 hours
+
+final hours = 3.3^164636 / 2.229588687×10⁸² = 1.480093624^164556
+
+Following the big crunch theory, the universe life span is roughly 150billion years
+
+life span in hours = 150 000 000 000 * 365 * 24 = 1.314×10¹⁵
+
+number of universes in order to type it = 1.48^164556 / 1.314×10¹⁵ = 1.126331811^164541
+
+number of atoms in the universe = 10^80 
+
+number of levels = 164541/ 80 = 2056.7625
+
+
+conclusion: 
+
+Even if someone filled the entire universe full of monkeys and typewriters and made them type at 100 words per minute, if you let those monkeys type for the life span of a universe, it will take an astronomically huge number of universes in order for some monkey in some universe in some specific time to type out of sheer luck the code that makes up my game (which is aproxmatly 3000 lines)
+
+The number of universe is aproxmatly 10^164540, this number is so huge it cannot be comprenhesed easily, now I am going to try to make you just grasp the insanity of this number.
+
+Imagine our universe, inside our universe there is 10^80 number of atoms. Now, imagine that every single atom was another universe. Now, do that again, so the every atom in the 10⁸⁰ universes is another universe. Well, If you kept doing that proccess 2054 more times, the number of universes that you got, will need to be filled out to the brim of monkeys and typewriters, so by the time all the universes day following the big-bang-big-crunch theory, then, and only then,it is expected for one monkey to type out the entire code of steermaster.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
