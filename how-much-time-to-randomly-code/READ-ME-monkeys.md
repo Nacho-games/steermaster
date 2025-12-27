@@ -6,4 +6,4 @@ The number of universes is approximately 10^164540. This number is so huge it ca
 
 Imagine our universe. Inside our universe, there are 10^80 atoms. Now, imagine that every single atom was another universe. Then, do that again, so that every atom in the 10^80 universes is another universe. If you kept repeating this process 2,054 more times (there for 2056 layers), the number of universes you would get would need to be filled to the brim with monkeys and typewriters. Only by the time all these universes live and die, following the big-bang–big-crunch theory, would it be expected for one monkey to type out the entire code of Steermaster.
 
-[See the calculations}(monkeys_typing_calculations.txt)
+[See the calculations](monkeys_typing_calculations.txt)
