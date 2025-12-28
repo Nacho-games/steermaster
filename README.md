@@ -6,7 +6,7 @@ If you wnat to see the how the game works you can go to the [Portfolio](Portfoli
 HOW TO INSTALL:
 1. Clone the folder Steermaster-Game
 2. Install Pygame (pip install pygame)
-3. Run this command python3 Steermaster-Game/script/steermaster.py so the path to the assets works
+3. Run this command _python3 Steermaster-Game/script/steermaster.py_ so the path to the assets works
 4. Play the game and enjoy!
 
 
